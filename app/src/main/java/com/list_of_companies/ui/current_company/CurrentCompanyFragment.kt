@@ -79,10 +79,6 @@ class CurrentCompanyFragment : ScopedFragment(), KodeinAware, OnMapReadyCallback
                 updateCompanyPhone(entries.phone)
                 updateCompanyCite(entries.www)
 
-                main_scrollView.requestDisallowInterceptTouchEvent(false)
-
-
-
                 group_loading_detail.visibility = View.GONE
                 main_layout.visibility = View.VISIBLE
 
